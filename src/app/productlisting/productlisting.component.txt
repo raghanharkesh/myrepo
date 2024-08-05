@@ -1,0 +1,797 @@
+<>
+<div>
+  <div class="titlebox">
+    <h1><b>Our Listings</b></h1>
+    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+  </div>
+  <!-- Filter/Sort  -->
+
+  <div class="buttons-container">
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary me-2"
+      style="background-color: #b5545e; border-color: #b5545e"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      <i class="fa-solid fa-filter"></i> &nbsp; Filters
+    </button>
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      style="background-color: #b5545e; border-color: #b5545e"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal2"
+    >
+      <i class="fa-solid fa-sort"></i> &nbsp; Sort
+    </button>
+  </div>
+
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Filtered By</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <p>Featured collections</p>
+          <div class="container">
+            <div class="row row-equal">
+              <div class="cards col-md-5">
+                <label><i class="fas fa-gift"></i> Gift Hampers</label>
+              </div>
+              <div class="cards col-md-5">
+                <label><i class="fas fa-star"></i> Case of the Month</label>
+              </div>
+            </div>
+            <div class="row row-equal">
+              <div class="cards col-md-5">
+                <label
+                  ><i class="fa-solid fa-circle-half-stroke"></i> Organic
+                  Wine</label
+                >
+              </div>
+              <div class="cards col-md-5">
+                <label
+                  ><i class="fa-solid fa-thumbs-up"></i> New Arrivals</label
+                >
+              </div>
+            </div>
+            <div class="row row-equal">
+              <div class="cards col-md-5">
+                <label
+                  ><i class="fa-solid fa-anchor"></i> Majestic Bordeaux</label
+                >
+              </div>
+              <div class="cards col-md-5">
+                <label
+                  ><i class="fa-solid fa-hand-holding-heart"></i> Low-Alcohol
+                  Wines</label
+                >
+              </div>
+            </div>
+          </div>
+          <p>Wine Type</p>
+          <div class="container">
+            <div class="row row-equal">
+              <div class="cards col-md-5">
+                <label
+                  ><i class="fa-solid fa-wine-glass"></i>&nbsp;&nbsp;Red
+                  Wine</label
+                >
+              </div>
+              <div class="cards col-md-5">
+                <label
+                  ><i class="fa-solid fa-wine-glass"></i>&nbsp;&nbsp;White
+                  Wine</label
+                >
+              </div>
+            </div>
+            <div class="row row-equal">
+              <div class="cards col-md-5">
+                <label
+                  ><i class="fa-solid fa-wine-glass"></i>&nbsp;&nbsp;Sparkling
+                  Wine</label
+                >
+              </div>
+              <div class="cards col-md-5">
+                <label
+                  ><i class="fa-solid fa-wine-glass"></i
+                  >&nbsp;&nbsp;Champagne</label
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="modal fade"
+    id="exampleModal2"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sort By</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <p>Sort According To</p>
+          <div class="container">
+            <div class="row row-equal">
+              <div class="form-check col-md-6">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Product Name A-Z
+                </label>
+              </div>
+              <div class="form-check col-md-6">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Product Name Z-A
+                </label>
+              </div>
+            </div>
+            <div class="row row-equal">
+              <div class="form-check col-md-6">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Price: Low to High
+                </label>
+              </div>
+              <div class="form-check col-md-6">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Price: High to Low
+                </label>
+              </div>
+            </div>
+            <div class="row row-equal">
+              <div class="form-check col-md-6">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Popularity: Low to High
+                </label>
+              </div>
+              <div class="form-check col-md-6">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Popularity: High to Low
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-primary"
+            style="background-color: #b5545e; border-color: #b5545e"
+          >
+            Apply
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Listing  -->
+  &nbsp;<br />
+  &nbsp;<br />
+  &nbsp;<br />
+  <div class="row">
+    <div class="card col-md-3">
+      <img src="..//../assets/images/1.jpeg" class="img-fluid" id="1" alt=" " />
+      <h3>RASA CABBERNET SAUVIGNON</h3>
+      <h6>
+        <i
+          >Flavours: Black fruit (blackcurrant, blackberries), olive, vanilla</i
+        >
+      </h6>
+      <p><strong>$12,000</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+        onclick="addToCart(1, 12000)"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img src="..//../assets/images/2.jpeg" class="img-fluid" id="2" alt=" " />
+      <h3>RASA SYRAH</h3>
+      <h6><i>FLAVOURS: Dark and red berries, vanilla, mocha, spices</i></h6>
+      <p><strong>$12,100</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img src="..//../assets/images/3.jpeg" class="img-fluid" id="3" alt=" " />
+      <h3>RASA ZINFANDEL</h3>
+      <h6><i>Flavours: Plum, blueberry, raspberry, cinnamon</i></h6>
+      <p><strong>$12,200</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img src="..//../assets/images/4.jpeg" class="img-fluid" id="4" alt=" " />
+      <h3>THE SOURCE MOSCATO</h3>
+      <h6><i>Flavours: Expressive notes of citrus, lychee and peach</i></h6>
+      <p><strong>$12,300</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img src="..//../assets/images/5.jpeg" class="img-fluid" id="5" alt=" " />
+      <h3>THE SOURCE GRENACHE ROSÉ</h3>
+      <h6><i>Flavours: Citrus, tropical fruits and white peach</i></h6>
+      <p><strong>$12,400</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img src="..//../assets/images/6.jpeg" class="img-fluid" id="6" alt=" " />
+      <h3>THE SOURCE CHENIN BLANC RESERVE</h3>
+      <h6><i>Flavours: Great notes of pear, pineapple and citrus</i></h6>
+      <p><strong>$12,500</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img src="..//../assets/images/7.jpeg" class="img-fluid" id="7" alt=" " />
+      <h3>THE SOURCE SAUVIGNON BLANC RESERVE</h3>
+      <h6><i>Flavours: Full of tropical and green fruit</i></h6>
+      <p><strong>$12,600</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img src="..//../assets/images/8.jpeg" class="img-fluid" id="8" alt=" " />
+      <h3>THE SOURCE CABERNET SAUVIGNON</h3>
+      <h6><i>Flavours: Cherry, Blackberry, Plum, Chocolate</i></h6>
+      <p><strong>$12,700</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img src="..//../assets/images/9.jpeg" class="img-fluid" id="9" alt=" " />
+      <h3>THE SOURCE PINOT NOIR</h3>
+      <h6><i>Flavours: Raspberry, Cherry, Vanilla</i></h6>
+      <p><strong>$12,800</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img
+        src="..//../assets/images/10.webp"
+        class="img-fluid"
+        id="10"
+        alt=" "
+      />
+      <h3>DINDORI RESERVE VIOGNIER</h3>
+      <h6><i>Flavours: Apricot, Peach, Lychee</i></h6>
+      <p><strong>$12,900</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img
+        src="..//../assets/images/11.webp"
+        class="img-fluid"
+        id="11"
+        alt=" "
+      />
+      <h3>DINDORI RESERVE CHARDONNAY</h3>
+      <h6><i>Flavours: Honey, Lemon, Tropical Fruit, Vanilla</i></h6>
+      <p><strong>$13,000</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img
+        src="..//../assets/images/12.webp"
+        class="img-fluid"
+        id="12"
+        alt=" "
+      />
+      <h3>DINDORI RESERVE SHIRAZ</h3>
+      <h6>
+        <i
+          >Flavours: Smoky aromas, vanilla, cherry, red fruit with hints of
+          spices.</i
+        >
+      </h6>
+      <p><strong>$13,100</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img
+        src="..//../assets/images/13.webp"
+        class="img-fluid"
+        id="13"
+        alt=" "
+      />
+      <h3>TROPICAL ROSE</h3>
+      <h6>
+        <i
+          >Flavours: Aromas of peach and passion fruit with hints of guava at
+          the finish.</i
+        >
+      </h6>
+      <p><strong>$13,100</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img
+        src="..//../assets/images/14.webp"
+        class="img-fluid"
+        id="14"
+        alt=" "
+      />
+      <h3>SULA BRUT</h3>
+      <h6><i>Flavours: Aromas of apples & pears</i></h6>
+      <p><strong>$13,100</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img
+        src="..//../assets/images/15.webp"
+        class="img-fluid"
+        id="15"
+        alt=" "
+      />
+      <h3>SULA SPARKLING SHIRAZ</h3>
+      <h6><i>Flavours: Pomegranate, dark berries, spices,smoke.</i></h6>
+      <p><strong>$13,100</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img
+        src="..//../assets/images/16.webp"
+        class="img-fluid"
+        id="16"
+        alt=" "
+      />
+      <h3>SULA SECO</h3>
+      <h6>
+        <i
+          >Flavours: Hints of ripe fruit, melon & passion fruit on the palate
+          and a citrusy,lingering finish..</i
+        >
+      </h6>
+      <p><strong>$13,100</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img
+        src="..//../assets/images/17.jpg"
+        class="img-fluid"
+        id="17"
+        alt=" "
+      />
+      <h3>SULA SECO ROSE</h3>
+      <h6>
+        <i
+          >Flavours: A nose full of nectarine, watermelon and soft white
+          fruit.</i
+        >
+      </h6>
+      <p><strong>$13,100</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+    <div class="card col-md-3">
+      <img
+        src="..//../assets/images/18.webp"
+        class="img-fluid"
+        id="18"
+        alt=" "
+      />
+      <h3>SULA ZINFADEL ROSE</h3>
+      <h6>
+        <i>Flavours: Intense notes of citrus, cranberry & ripe fruits.</i>
+      </h6>
+      <p><strong>$13,100</strong></p>
+      <a href="#"
+        ><i class="fa-regular fa-heart" style="margin-right: 250px"></i
+        ><i class="fa-solid fa-share-nodes"></i
+      ></a>
+      <div class="quantity-container">
+        <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+        <input
+          type="number"
+          class="quantity-input"
+          value="1"
+          id="product-quantity2"
+        />
+        <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+      </div>
+      <br />
+      <button
+        class="btn btn-primary"
+        style="background-color: #b5545e; border-color: #b5545e"
+      >
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </div>
+  </div>
+</div>

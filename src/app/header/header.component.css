@@ -1,0 +1,25 @@
+body {
+    background-color: #370617;
+    margin: 0;
+    padding: 0;
+    
+}
+/* Header  */
+.navbar{
+    height: 100px;
+    
+}
+div ul li a:hover{
+    border-bottom: 1.5px solid whitesmoke;
+}
+nav div a{
+    margin-left: 5px;
+}
+.bi{
+    color: #0d0d0d;
+    font-size: 1.5em;
+}
+.bi-person-fill{
+    font-size: 1.8em;
+}
+
